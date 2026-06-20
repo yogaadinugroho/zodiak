@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+    <title>✨ Zodiac Oracle · Cosmic Fortune Teller ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">🔮</div>
+                <div class="logo-text">
+                    <h1>ZODIAC ORACLE</h1>
+                    <p>✨ COSMIC FORTUNE TELLER ✨</p>
+                </div>
+            </div>
+            <button class="theme-toggle" id="themeBtn">🚀 LUAR ANGKASA</button>
+        </div>
+
+        <div class="main-grid">
+            <div class="panel">
+                <h2>🌟 Pilih Zodiakmu</h2>
+                <div class="form-group">
+                    <label>Tanduk Zodiak</label>
+                    <select id="zodiacSelect">
+                        <option value="">-- Pilih Zodiakmu --</option>
+                        <option value="aries">♈ Aries (21 Mar - 19 Apr)</option>
+                        <option value="taurus">♉ Taurus (20 Apr - 20 Mei)</option>
+                        <option value="gemini">♊ Gemini (21 Mei - 20 Jun)</option>
+                        <option value="cancer">♋ Cancer (21 Jun - 22 Jul)</option>
+                        <option value="leo">♌ Leo (23 Jul - 22 Ags)</option>
+                        <option value="virgo">♍ Virgo (23 Ags - 22 Sep)</option>
+                        <option value="libra">♎ Libra (23 Sep - 22 Okt)</option>
+                        <option value="scorpio">♏ Scorpio (23 Okt - 21 Nov)</option>
+                        <option value="sagittarius">♐ Sagittarius (22 Nov - 21 Des)</option>
+                        <option value="capricorn">♑ Capricorn (22 Des - 19 Jan)</option>
+                        <option value="aquarius">♒ Aquarius (20 Jan - 18 Feb)</option>
+                        <option value="pisces">♓ Pisces (19 Feb - 20 Mar)</option>
+                    </select>
+                </div>
+                <button class="btn" id="revealBtn">🔮 LIHAT RAMALAN</button>
+            </div>
+
+            <div class="panel result-panel">
+                <div id="resultContent" class="empty-state">
+                    <div class="empty-icon">✨</div>
+                    <h3>Pilih zodiakmu untuk melihat ramalan misterius</h3>
+                    <p>Klik tombol "Lihat Ramalan" setelah memilih tanduk zodiakmu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
